@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #EE373C;
+}
+
+@font-face {
+    font-family: "VCR";
+    src: url("Fonts/VCR_OSD_MONO_1.001.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "HelveticaLight";
+    src: url("Fonts/HelveticaNeue\ Light.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cascadia";
+    src: url("Fonts/Cascadia.ttf");
+    font-weight: normal;
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: "HelveticaBold";
+    src: url("Fonts/HelveticaNeue\ Bold.ttf");
+    font-weight: normal;
+    font-style: oblique;
+}
+
+.TopDiv {
+    padding-top: 2%;
+    width: 92%;
+    height: 15%;
+    margin: auto;
+}
+
+.TopHeader {
+    font-family: "Cascadia";
+    margin: auto;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid black;
+    margin: 0;
+}

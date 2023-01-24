@@ -1,0 +1,183 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #ffa703
+}
+
+@font-face {
+    font-family: "VCR";
+    src: url("Fonts/VCR_OSD_MONO_1.001.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "HelveticaLight";
+    src: url("Fonts/HelveticaNeue\ Light.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cascadia";
+    src: url("Fonts/Cascadia.ttf");
+    font-weight: normal;
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: "HelveticaBold";
+    src: url("Fonts/HelveticaNeue\ Bold.ttf");
+    font-weight: normal;
+    font-style: oblique;
+}
+
+/*NAV*/
+.NavBarContainer {
+    display: flex;
+    width: 92%;
+    height: 21%;
+    margin: auto;
+    padding-top: 3%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.NavDiv {
+    width: 25%;
+}
+
+p.nav {
+    font-family: "VCR";
+    font-size: 20px;
+    margin: 0;
+}
+
+p.name {
+    font-family: "VCR";
+    font-size: 23.5px;
+    margin: 0;
+}
+
+hr {
+    border: 1px solid black;
+}
+/*NAV END*/
+
+/*CONTENT*/
+.ContentContainer {
+    display: flex;
+    width: 92%;
+    height: 59%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+/* LEFT SIDE CONTENT */
+.SocialsContainer {
+    width: 20%;
+    height: 100%;
+}
+
+.SocialTags {
+    margin-top: 0;
+    font-family: "VCR";
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+p.SmallStory {
+    font-size: 9px;
+    font-family: "HelveticaLight";
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+p.EndingPhrase {
+    font-size: 9px;
+    font-family: "HelveticaBold";
+    font-weight: 400;
+
+}
+
+/* MIDDLE CONTENT */
+.ImageContainer {
+    width: 64%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ImageContainer img {
+    max-width: 100%;
+}
+
+.FillerContainer1 img {
+    max-width: 100%;
+}
+
+/* RIGHT SIDE CONTENT */
+.FillerContainer {
+    width: 15%;
+    height: 100%;
+}
+
+.MusicDiv {
+    width: 100%;
+    height: 33%;
+}
+
+.OtherWorksDiv {
+    width: 100%;
+    height: 30%;
+}
+
+h2.OtherNav {
+    font-family: "VCR";
+}
+
+h2.ListeningTo {
+    margin-top: 0;
+    font-family: "VCR";
+}
+
+p.Song {
+    font-family: "HelveticaLight";
+    font-size: 9px;
+    line-height: 1;
+}
+
+div.DotDiv {
+    width: 100%;
+    height: 32.5%;
+    overflow: hidden;
+    position: relative;
+}
+
+.DotDiv img {
+    max-width: 100%;
+    position: absolute;
+}
+
+div.BottomDeco {
+    width: 92%;
+    height: 15%;
+    margin: auto;
+}
+
+h2.CurrentPage {
+    font-family: "Cascadia";
+    font-size: 25px;
+    text-align: center;
+}
+
