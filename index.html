@@ -39,7 +39,7 @@
                 <br>
                 <p class = "nav">
                     <a id = "Best" href = "BestStoryEver.html">
-                        &#8627; BEST STORY EVER
+                        &#8627; SANTORINI NAPANEE
                     </a>
                 </p>
                 <p class = "nav">
@@ -59,8 +59,8 @@
                     </a>
                 </p>
                 <p class = "nav">
-                    <a href = "More.html">
-                        &#8627; MORE
+                    <a id = "BS" href = "More.html">
+                        &#8627; BREAKING STEREOTYPES
                     </a>
                 </p>
                 <br>
@@ -127,6 +127,10 @@
                 <div id = Wingchun  style = "display: none">
                     <img src = "Images/Wingchun.jpeg">
                 </div>
+
+                <div id = Stereotypes style = "display: none">
+                    <img src = "Images/Stereotypes.png">
+                </div>
                 
             </div>
 
@@ -190,17 +194,27 @@
                 $('#Masayoshi').css('display', 'block');
                 $('#Earth').css('display', 'none');
                 $('#Wingchun').css('display', 'none');
+                $('#Stereotypes').css('display', 'none');
             });
             $("#HtE").hover(function(){
                 $('#Earth').css('display', 'block');
                 $('#Masayoshi').css('display', 'none');
                 $('#Wingchun').css('display', 'none');
+                $('#Stereotypes').css('display', 'none');
             });
             $("#JtW").hover(function(){
                 $('#Wingchun').css('display', 'block');
                 $('#Earth').css('display', 'none');
                 $('#Masayoshi').css('display', 'none');
+                $('#Stereotypes').css('display', 'none');
             });
+            $("#BS").hover(function(){
+                $('#Stereotypes').css('display', 'block');
+                $('#Wingchun').css('display', 'none');
+                $('#Earth').css('display', 'none');
+                $('#Masayoshi').css('display', 'none');
+            });
+
         </script>
     </body>
 </html>
